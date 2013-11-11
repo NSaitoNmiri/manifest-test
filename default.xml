@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="github" fetch="git://github.com/" />
-	<remote name="bitbucket" fetch="git://github.com/NSaitoNmiri" />
+	<remote name="bitbucket" fetch="git://bitbucket.org/" />
 	<default revision="master" remote="github" />
 
-	<project name="NSaitoNmiri/first-launchpad-sample">
-	</project>
+	<project name="NSaitoNmiri/first-launchpad-sample" />
+	<project name="NSaitoNmiri/toppers_ssp_lpc812" remote="bitbucket" />
 </manifest>
