@@ -4,6 +4,6 @@
 	<remote name="bitbucket" fetch="https://bitbucket.org/" />
 	<default revision="master" remote="github" />
 
-	<project name="NSaitoNmiri/first-launchpad-sample" />
-	<project name="NSaitoNmiri/toppers_ssp_lpc812" remote="bitbucket" />
+	<project name="NSaitoNmiri/first-launchpad-sample" path="first-launchpad-sample" groups="msp430" />
+	<project name="NSaitoNmiri/toppers_ssp_lpc812" remote="bitbucket" path="toppers_ssp_lpc812" groups="lpc812" />
 </manifest>
